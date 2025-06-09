@@ -756,6 +756,7 @@ color: white;
 }
 .cust-label{
   display: flex;
+  align-items: center;
   flex-direction: column;
   border-radius: 60px;
   background: #00FFA0;
@@ -781,6 +782,9 @@ text-decoration: underline;
 color: #11111B;
 text-underline-offset: 3px;
 
+}
+.proof-labels .cust-label p a{
+white-space: wrap;
 }
 /* ROADMAP SECTION */
 .road-container{
