@@ -1623,11 +1623,11 @@ white-space: nowrap;
 }
 @media screen and (min-width:1200px) {
   .nav-list ul{
-    gap: 1rem;
+    gap: .75rem;
   }
   .nav-list a{
     padding: 15px 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .hero-sect{
     margin-top: -9%;
@@ -1692,11 +1692,15 @@ white-space: nowrap;
 }
 
 @media screen and (min-width:1320px) {
+
   .hero-sect{
     margin-top: -8%;
   }
   .nav-list ul{
-    gap: 1.5rem;
+    gap: 1.2rem;
+  }
+    .nav-list a{
+    font-size: 20px;
   }
      .about-head{
     grid-template-columns: 43% 1fr;
